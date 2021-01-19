@@ -10,21 +10,11 @@ body {
     line-height: 1.5;
 }
 
-header {
-    padding: 45px 15px;
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0%;
-    z-index: 10;
-}
-
-nav, footer {
+h1, footer {
     padding: 1% 0;
     background-color: #aaa;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 section {
