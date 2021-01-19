@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #444;
+}
+
+footer {
+    text-align: center;
+}
+
+header {
+    padding: 15px;
+}
+
+header, footer {
+    background-color: #aaa;
+}
+
+main {
+    background-color: #ddd;
+}
+
+section {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.smaller-details {
+    text-align: left;
+    margin-left: 35%;
+}
+
+.buttons {
+    margin-top: 50px;
+}
