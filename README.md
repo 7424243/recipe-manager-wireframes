@@ -4,21 +4,27 @@ These wireframes help to plan the recipe-manager-client and recipe-manager-serve
 
 ## Live Demo
 
-Click [here]() to see a live demo.
+Click [here](https://7424243.github.io/recipe-manager-wireframes/) to see a live demo.
 
 ## Screens
 
-Landing Page
+### Landing Page
+![landing page image](images/landingPage.png)
 
-Home Page
+### Home Page
+![home page image](images/home.png)
 
-Recipe Page
+### Recipe Page
+![recipe page image](images/recipe.png)
 
-Add Recipe Page
+### Add Recipe Page
+![add recipe page image](images/addRecipe.png)
 
-Sign Up Page
+### Sign Up Page
+![sign up page image](images/Signup.png)
 
-Login Page
+### Login Page
+![login page image](images/login.png)
 
 ## Summary
 
