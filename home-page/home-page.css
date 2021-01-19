@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div {
+    box-shadow: 0 4px 8px 0;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: 1px black solid;
+    margin: 20px;
+    padding: 2px 16px;
+    background-color: white;
+    width: 20%;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+}
+
+header {
+    padding: 15px;
+}
+
+header, footer {
+    background-color: #aaa;
+}
+
+img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    background-color: #ddd;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+
