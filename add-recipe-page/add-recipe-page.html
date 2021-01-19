@@ -3,9 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="add-recipe-page.css">
     <title>Add Recipe Page Wireframe</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Recipe Manager</h1>
+        <nav>Nav</nav>
+    </header>
+    <main>
+        <h3>New Recipe</h3>
+        <section>
+            <form>
+                <section class="name">
+                    <label for="name">Recipe Name: </label>
+                    <input type="text" placeholder="Recipe Name">
+                </section>
+                <section class="url">
+                    <label for="url">Recipe URL: </label>
+                    <input type="url" placeholder="https://www.recipe.com">
+                </section>
+                <section class="like">
+                    <label for="like">Why Did You Like It?: </label>
+                    <textarea name="like" id="" cols="30" rows="10" placeholder="What did you like about this recipe?"></textarea>
+                </section>
+                <section class="notes">
+                    <label for="notes">Additional Notes: </label>
+                    <textarea name="notes" id="" cols="30" rows="10" placeholder="Modifications for next time?"></textarea>
+                </section>
+                <section class="buttons">
+                    <button>Cancel</button>
+                    <button>Save</button>
+                </section>
+            </form>
+        </section>
+    </main>
+    <footer>Footer</footer>
 </body>
 </html>

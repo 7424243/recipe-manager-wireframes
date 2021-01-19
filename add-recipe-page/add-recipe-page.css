@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #444;
+}
+
+footer {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    padding: 0 0 40px;
+    max-width: 450px;
+    text-align: left;
+  }
+
+header {
+    padding: 15px;
+}
+
+header, footer {
+    background-color: #aaa;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+input, label, textarea {
+    display: block;
+    width: 100%;
+}
+
+main {
+    background-color: #ddd;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+.buttons {
+    margin-top: 40px;
+    text-align: center;
+}
