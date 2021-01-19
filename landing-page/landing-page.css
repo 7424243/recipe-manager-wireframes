@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+}
+
+header {
+    padding: 45px 15px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0%;
+    z-index: 10;
+}
+
+nav, footer {
+    padding: 1% 0;
+    background-color: #aaa;
+}
+
+section {
+    padding: 30px 15px;
+}
+
+p {
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+.purpose {
+    background-color: #bbb;
+}
+
+.how-to {
+    background-color: #ddd;
+}
